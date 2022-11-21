@@ -1,3 +1,5 @@
+// getting data about product from local storage
+
 let productName = localStorage.getItem("productName");
 let productPrice = localStorage.getItem("productPrice");
 

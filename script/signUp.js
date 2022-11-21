@@ -1,5 +1,8 @@
 const signBtn = document.getElementById("sign-button");
 
+// when submit button got clicked functions get values from inputs,
+// checks if they are not empty and if not alerts user data.
+
 signBtn.addEventListener("click", () => {
     const inputs = document.querySelectorAll(".sign-input");
     let inputValues = [];
