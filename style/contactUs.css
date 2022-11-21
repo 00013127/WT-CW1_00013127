@@ -1,73 +1,73 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Exo", sans-serif;
-  background-color: #3b3b3b;
-  width: 100vw;
-  height: 100vh;
-  padding: 100px 100px;
+    font-family: "Exo", sans-serif;
+    background-color: #3b3b3b;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 100px;
 }
 
 main {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .ul-header {
-  color: white;
-  font-size: 30px;
-  list-style: none;
+    color: white;
+    font-size: 30px;
+    list-style: none;
 }
 
 .ul-list {
-  cursor: pointer;
-  color: #e1e1e1;
-  font-size: 20px;
-  margin-top: 30px;
-  transition: 500ms;
+    cursor: pointer;
+    color: #e1e1e1;
+    font-size: 20px;
+    margin-top: 30px;
+    transition: 500ms;
 }
 
 .no-hover-list {
-  color: #e1e1e1;
-  font-size: 20px;
-  margin-top: 30px;
-  transition: 500ms;
+    color: #e1e1e1;
+    font-size: 20px;
+    margin-top: 30px;
+    transition: 500ms;
 }
 
 .ul-list:hover {
-  color: #dbfd01;
+    color: #dbfd01;
 }
 
 .white {
-  color: white;
+    color: white;
 }
 
 .social-network {
-  cursor: pointer;
-  justify-content: space-around;
-  display: flex;
-  color: white;
-  font-size: 30px;
-  margin: 30px;
+    cursor: pointer;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin: 30px;
 }
 
 .social-network > i {
-  transition: 500ms;
+    transition: 500ms;
 }
 
 .social-network > i:hover {
-  color: #dbfd01;
+    color: #dbfd01;
 }
 
 .bottom-div {
-  font-family: "Exo", sans-serif;
-  color: #dbfd01;
-  display: flex;
-  justify-content: space-between;
-  margin: 50px;
+    font-family: "Exo", sans-serif;
+    color: #dbfd01;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
 }
