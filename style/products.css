@@ -89,3 +89,29 @@ main {
     margin-top: 20px;
     font-size: 25px;
 }
+
+@media screen and (max-width: 768px) {
+    .navigation a {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 15px  0;
+        width: 70px;
+    }
+
+    .logo h1 {
+        font-size: 22px;
+        margin-right: 20px;
+    }
+
+    .products {
+        width: 100%;
+    }
+
+    .product-button {
+        width: 100px;
+    }
+
+    .product-header {
+        font-size: 15px;
+    }
+}

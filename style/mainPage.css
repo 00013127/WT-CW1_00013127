@@ -134,3 +134,47 @@ main {
 .white {
     height: 200px;
 }
+
+@media screen and (max-width: 768px) {
+    .navigation a {
+        font-size: 10px;
+        font-weight: bold;
+        margin: 15px  0;
+        width: 70px;
+    }
+
+    .logo h1 {
+        font-size: 22px;
+        margin-right: 20px;
+    }
+
+    #main-header {
+        font-size: 40px;
+    }
+
+    #main-button {
+        cursor: pointer;
+        position: absolute;
+        top: 370px;
+        left: 30%;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0 auto;
+        font-family: "Ubuntu", sans-serif;
+        background-color: rgb(40, 40, 40);
+        border-radius: 30px;
+        color: white;
+        width: 300px;
+        height: 60px;
+        border: none;
+        transition: 0.3s;
+    }
+
+    .why-us-header {
+        font-size: 30px;
+    }
+
+    .why-us > div > * {
+        font-size: 20px;
+    }
+}

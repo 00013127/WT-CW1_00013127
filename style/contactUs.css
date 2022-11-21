@@ -71,3 +71,23 @@ main {
     justify-content: space-between;
     margin: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    .ul-header {
+        font-size: 20px;
+    }
+
+    .ul-list {
+        font-size: 12px;
+    }
+
+    .no-hover-list {
+        font-size: 12px;
+    }
+    .social-network {
+        font-size: 20px;
+    }
+    .bottom-div {
+        font-size: 10px;
+    }
+}
