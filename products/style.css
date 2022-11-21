@@ -68,6 +68,7 @@ main {
 }
 
 .product-button {
+    cursor: pointer;
     width: 150px;
     height: 30px;
     border: none;
